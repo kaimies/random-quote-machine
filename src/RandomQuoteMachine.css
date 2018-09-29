@@ -1,0 +1,51 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-box {
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 3px 3px 10px rgba(55, 115, 184, 0.5);
+    padding: 1.5rem;
+    color: #3773b8;
+    border-radius: .5rem;
+}
+
+.button {
+    justify-self: flex-start;
+    padding: 1rem 1.5rem;
+    color: #ffffff;
+    background-color: #3773b8;
+    border: 3px solid #ffffff;
+    border-radius: 0.7rem;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.3s;
+    vertical-align: middle;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 100%;
+}
+
+.button:hover,
+.button:active {
+    color: #3773b8;
+    background-color: #ffffff;
+}
+
+a.button {
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: 700;
+}
