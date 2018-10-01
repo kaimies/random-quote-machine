@@ -13,6 +13,7 @@ class App extends Component {
     return (
       <div className="App">
         <RandomQuoteMachine />
+        <a className="button source-code" target="_blank" rel="noopener noreferrer" href="https://github.com/kaimies/random-quote-machine/tree/fcc">Source Code</a>
       </div>
     );
   }
